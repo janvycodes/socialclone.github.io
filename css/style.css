@@ -242,6 +242,9 @@
   margin-bottom: 10px;
   overflow: hidden;
 }
+.grid-item{
+  max-height: 300px;
+}
 .suggested-grid{
   overflow: hideen;
 }
