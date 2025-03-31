@@ -246,7 +246,7 @@
 }
 .suggested-grid{
   overflow: hideen;
-  grid-template-columns: minmax(0, 1fr) 320px;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 }
 }
 
