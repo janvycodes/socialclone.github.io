@@ -243,3 +243,9 @@
   overflow: hidden;
 }
 }
+
+@media screen and (max-width: 380px){
+  .suggested {
+    height: 900px;
+  }
+}
