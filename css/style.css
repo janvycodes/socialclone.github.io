@@ -247,6 +247,7 @@
 }
 .suggested-grid{
   overflow: hideen;
+  grid-template-columns: minmax(0, 1fr) 320px;
 }
 .grid-item{
   overflow: hidden;
