@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Tuchil</title>
+	<link rel="shorcut icon" type="image/png" href="assets/tuchil2b.png">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet"  href="css/all.css">
+	<script type="text/javascript" src="js/all.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Next Generation Social Media">
+</head>
+<body>
+	<div class="screen-module">
+	<div class="header">
+		<img src="assets/tuchil2bb.png" alt="logo">
+
+		<div class="header-icos">
+		<i class="far fa-heart" aria-hidden="true"></i>&nbsp; &nbsp; 
+		<i class="fa-brands fa-facebook-messenger fa-fw" alt="Facebook"></i>
+		</div>
+	</div>
+	<div class="stories-container">
+		<div class="story-text">
+		<div class="story" data-story="story1.mp4">
+			<img src="assets/b1.jpg" alt="user 1">
+		</div>
+		Your Story
+		</div>
+		<div class="story-text">
+		<div class="story" data-story="story2.mp4">
+			<img src="assets/b2.jpg" alt="user 2">
+		</div>
+		Sam Angus
+	    </div>
+	    <div class="story-text">
+		<div class="story" data-story="story3.mp4">
+			<img src="assets/b3.jpg" alt="user 3">
+		</div>
+		Socialioso
+	    </div>
+	    <div class="story-text">
+		<div class="story" data-story="story4.mp4">
+			<img src="assets/b4.png" alt="user 4">
+		</div>
+		trevor_green
+	    </div>
+	    <div class="story-text">
+		<div class="story" data-story="story2.mp4">
+			<img src="assets/b2.jpg" alt="user 2">
+		</div>
+		max.walsh
+	    </div>
+	    <div class="story-text">
+		<div class="story" data-story="story3.mp4">
+			<img src="assets/b3.jpg" alt="user 3">
+		</div>
+		Solomon
+	    </div>
+	    <div class="story-text">
+		<div class="story" data-story="story4.mp4">
+			<img src="assets/b4.png" alt="user 4">
+		</div>
+		quitachie
+	    </div>
+	</div>
+	<div class="post-main">
+		<div class="post-head">
+			<div class="profile-sub">
+				<img src="assets/b1.jpg" alt="user 4">
+				Sam Angus
+			</div>
+			<i class="fa fa-ellipsis-h pserch" aria-hidden="true"></i>
+		</div>
+		<img src="assets/b6.jpg" alt="post" class="postimg">
+		<div class="post-actions">
+			<div class="post1">
+			<button class="like-btn" onclick="toggleLike(this)">
+				<i class="far fa-heart"></i>
+			</button>
+			<button class="comment-btn">
+				<i class="far fa-comment"></i>
+			</button>
+			<button class="share-btn">
+				<i class="far fa-paper-plane"></i>
+			</button>
+			</div>
+			<button class="save-btn">
+				<i class="far fa-bookmark"></i>
+			</button> 
+		</div>
+		<div class="caption">
+			<span class="caption-text">
+			<input id="ch" type="checkbox">
+			<strong>sam angus</strong> Just another beautiful sunset at the beach.<label for="ch" class="read-more">more</label> <span class="hddn"> The waves crashing, the cool breeze and thegolden hues of the sky made for a perfect evening.
+			  Watching the sun go down reminds me to appreciate the little moments in life. Can't wait for another trip here! <label for="ch" class="read-more">less</label></span> 
+			  </span>
+		</div>
+		<span class="post-time">2 weeks ago</span>
+	</div>
+	<div class="post-main">
+		<div class="post-head">
+			<div class="profile-sub">
+				<img src="assets/b2.jpg" alt="user 4">
+				<div>
+					trevor_green <i class="fa fa-check-circle bluecheck" aria-hidden="true"></i><br>
+					<span class="loc-trace">North Atlanta, USA</span>
+				</div>
+			</div>
+			<i class="fa fa-ellipsis-h pserch" aria-hidden="true"></i>
+		</div>
+		<img src="assets/b2.jpg" alt="post" class="postimg">
+		<div class="post-actions">
+			<div class="post1">
+			<button class="like-btn" onclick="toggleLike(this)">
+				<i class="far fa-heart"></i>
+			</button>
+			<button class="comment-btn">
+				<i class="far fa-comment"></i>
+			</button>
+			<button class="share-btn">
+				<i class="far fa-paper-plane"></i>
+			</button>
+			</div>
+			<button class="save-btn">
+				<i class="far fa-bookmark"></i>
+			</button> 
+		</div>
+		<div class="caption">
+			<span class="caption-text">
+			<input id="ch2" type="checkbox">
+			<strong>sam angus</strong> Just another beautiful sunset at the beach.<label for="ch2" class="read-more">more</label> <span class="hddn2"> The waves crashing, the cool breeze and thegolden hues of the sky made for a perfect evening.
+			  Watching the sun go down reminds me to appreciate the little moments in life. Can't wait for another trip here! <label for="ch2" class="read-more">less</label></span> 
+			  </span>
+		</div>
+		<span class="post-time">2 days ago</span>
+	</div>
+	<div class="post-main">
+		<div class="post-head">
+			<div class="profile-sub">
+				<img src="assets/b3.jpg" alt="user 4">
+				socialioso
+				<i class="fa fa-check-circle bluecheck" aria-hidden="true"></i>
+			</div>
+			<i class="fa fa-ellipsis-h pserch" aria-hidden="true"></i>
+		</div>
+		<video autoplay muted playsinline loop webkit-playsinline id="myVideo">
+			<source src="assets/v1.mp4" type="video/mp4">
+		</video>
+		<div class="post-actions">
+			<div class="post1">
+			<button class="like-btn" onclick="toggleLike(this)">
+				<i class="far fa-heart"></i>
+			</button>
+			<button class="comment-btn">
+				<i class="far fa-comment"></i>
+			</button>
+			<button class="share-btn">
+				<i class="far fa-paper-plane"></i>
+			</button>
+			</div>
+			<button class="save-btn">
+				<i class="far fa-bookmark"></i>
+			</button> 
+		</div>
+		<div class="caption">
+			<span class="caption-text">
+			<input id="ch3" type="checkbox">
+			<strong>sam angus</strong> Just another beautiful sunset at the beach.<label for="ch3" class="read-more">more</label> <span class="hddn3"> The waves crashing, the cool breeze and thegolden hues of the sky made for a perfect evening.
+			  Watching the sun go down reminds me to appreciate the little moments in life. Can't wait for another trip here! <label for="ch3" class="read-more">less</label></span> 
+			  </span>
+		</div>
+		<span class="post-time">5 days ago</span>
+	</div>
+	<div class="suggested">
+		<h4>Suggested Reels</h4>
+		<div class="suggested-grid">
+			<div class="grid-item">
+			 <video autoplay muted playsinline loop webkit-playsinline id="myVideo">
+			 <source src="assets/v2.mp4" type="video/mp4">
+		     </video>
+			</div>
+			<div class="grid-item">
+			 <video autoplay muted playsinline loop webkit-playsinline id="myVideo">
+			 <source src="assets/v3.mp4" type="video/mp4">
+		     </video>
+			</div>
+			<div class="grid-item">
+			 <video autoplay muted playsinline loop webkit-playsinline id="myVideo">
+			 <source src="assets/v4.mp4" type="video/mp4">
+		     </video>
+			</div>
+			<d iv class="grid-item">
+			 <video autoplay muted playsinline loop webkit-playsinline id="myVideo">
+			 <source src="assets/v5.mp4" type="video/mp4">
+		     </video>
+			</div>
+		</div>
+	</div>
+	<div class="post-main">
+		<div class="post-head">
+			<div class="profile-sub">
+				<img src="assets/b7.jpg" alt="user 4">
+				<div>
+					solomon <i class="fa fa-check-circle bluecheck" aria-hidden="true"></i><br>
+					<span class="loc-trace">South Dakota, USA</span>
+				</div>
+			</div>
+			<i class="fa fa-ellipsis-h pserch" aria-hidden="true"></i>
+		</div>
+		<img src="assets/b2.jpg" alt="post" class="postimg">
+		<div class="post-actions">
+			<div class="post1">
+			<button class="like-btn" onclick="toggleLike(this)">
+				<i class="far fa-heart"></i>
+			</button>
+			<button class="comment-btn">
+				<i class="far fa-comment"></i>
+			</button>
+			<button class="share-btn">
+				<i class="far fa-paper-plane"></i>
+			</button>
+			</div>
+			<button class="save-btn">
+				<i class="far fa-bookmark"></i>
+			</button> 
+		</div>
+		<div class="caption">
+			<span class="caption-text">
+			<input id="ch4" type="checkbox">
+			<strong>sam angus</strong> Just another beautiful sunset at the beach.<label for="ch4" class="read-more">more</label> <span class="hddn4"> The waves crashing, the cool breeze and thegolden hues of the sky made for a perfect evening.
+			  Watching the sun go down reminds me to appreciate the little moments in life. Can't wait for another trip here! <label for="ch4" class="read-more">less</label></span> 
+			  </span>
+		</div>
+		<span class="post-time">March 3rd</span>
+	</div>
+	<div class="post-main">
+		<div class="post-head">
+			<div class="profile-sub">
+				<img src="assets/b5.jpg" alt="user 4">
+				quitachie
+				<i class="fa fa-check-circle bluecheck" aria-hidden="true"></i>
+			</div>
+			<i class="fa fa-ellipsis-h pserch" aria-hidden="true"></i>
+		</div>
+		<video autoplay muted playsinline loop webkit-playsinline id="myVideo">
+			<source src="assets/v1.mp4" type="video/mp4">
+		</video>
+		<div class="post-actions">
+			<div class="post1">
+			<button class="like-btn" onclick="toggleLike(this)">
+				<i class="far fa-heart"></i>
+			</button>
+			<button class="comment-btn">
+				<i class="far fa-comment"></i>
+			</button>
+			<button class="share-btn">
+				<i class="far fa-paper-plane"></i>
+			</button>
+			</div>
+			<button class="save-btn">
+				<i class="far fa-bookmark"></i>
+			</button> 
+		</div>
+		<div class="caption">
+			<span class="caption-text">
+			<input id="ch5" type="checkbox">
+			<strong>sam angus</strong> Just another beautiful sunset at the beach.<label for="ch5" class="read-more">more</label> <span class="hddn5"> The waves crashing, the cool breeze and thegolden hues of the sky made for a perfect evening.
+			  Watching the sun go down reminds me to appreciate the little moments in life. Can't wait for another trip here! <label for="ch5" class="read-more">less</label></span> 
+			  </span>
+		</div>
+		<span class="post-time">5 days ago</span>
+	</div>
+	<div class="bottom-nav">
+		<a href="#" class="nav-item active"><i class="fa fa-home" aria-hidden="true"></i></a>
+		<a href="#" class="nav-item"><i class="fa fa-search" aria-hidden="true"></i></a>
+		<a href="#" class="nav-item"><i class="fa fa-plus" aria-hidden="true"></i></a>
+		<a href="#" class="nav-item"><i class="fa fa-video" aria-hidden="true"></i></a>
+		<a href="#" class="nav-item"><i class="fa fa-user" aria-hidden="true"></i></a>
+	</div>
+    </div>
+    <script type="text/javascript">
+	function toggleLike(button){
+	const icon = button.querySelector("i");
+	icon.classList.toggle("fa");
+	icon.classList.toggle("far");
+	icon.classList.toggle("liked");
+}
+</script>
+<script type="text/javascript">
+	function toggleCaption(element){
+		const caption = element.previousElementSibling;
+		const parent = element.parentElement;
+
+		if (parent.classList.contains("expanded")){
+			parent.classList.remove("expanded");
+			element.textContent= "Read More";
+		}else{
+			parent.classList.add("expanded");
+			element.textContent="Read Less"
+		}
+	}
+</script>
+</body>
+</html>
+<script type="text/javascript">
+	document.addEventListener("DOMContentLoaded", function(){
+		var video = document.getElementById('myVideo');
+		var videoVisible = false;
+
+		window.addEventListener('scroll', function(){
+			var videoPosition = video.getBoundingClientRect();
+
+			if(videoPosition.top >= 0 && videoPosition.bottom <= window.innerHeight){
+				if(!videoVisible){
+					video.play();
+					videoVisible = true;
+				}
+			}else{
+				video.pause();
+				videoVisible = false;
+			}
+		})
+	})
+</script>
