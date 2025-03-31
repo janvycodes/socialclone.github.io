@@ -194,6 +194,7 @@
 }
 .suggested{
    padding: 5px 15px 20px 15px;
+   margin-bottom: 15px;
 }
 .grid-item{
    width: 100%;
