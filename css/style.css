@@ -243,12 +243,11 @@
   overflow: hidden;
 }
 .suggested-grid{
-  height: 600px;
+  overflow: hideen;
+}
+.grid-item{
+  overflow: hidden;
 }
 }
 
-@media screen and (max-width: 380px){
-  .suggested {
-    height: 900px;
-  }
-}
+
